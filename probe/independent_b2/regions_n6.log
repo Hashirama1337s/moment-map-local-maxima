@@ -1,0 +1,9 @@
+  n=6: 20000 regions, 40019 nodes, 14.3s
+  n=6: 40000 regions, 80026 nodes, 29.2s
+  n=6: 60000 regions, 120036 nodes, 44.1s
+  n=6: 80000 regions, 160045 nodes, 58.8s
+  n=6: 100000 regions, 200037 nodes, 73.2s
+  n=6: 120000 regions, 240029 nodes, 88.1s
+n=6: regions in chamber = 124187  unique = 124187  DFS nodes = 248373  cutting hyperplanes = 98/364  time = 91.4s
+  completeness: neighbor orderings checked = 872018, missing = 0, facet test comb-vs-SVD disagreements = 0
+  rays per region: min 6 max 24; facets per region: min 6 max 13

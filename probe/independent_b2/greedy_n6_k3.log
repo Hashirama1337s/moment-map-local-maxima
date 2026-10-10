@@ -1,0 +1,1 @@
+n=6 k=3: greedy cost = 0.00444752273043  C* = 0.00149759750993  ratio = 2.969771718  steps: 64lv res=0.332002 lines=587; 32lv res=0.481211 lines=135; 16lv res=0.450119 lines=36 brute==; 8lv res=0.261575 lines=8 brute==; 4lv res=0.294346 lines=2 brute==; 2lv res=0 lines=1 brute==  [234.1s]

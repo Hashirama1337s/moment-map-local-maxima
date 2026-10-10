@@ -1,0 +1,1182 @@
+[
+ {
+  "n": 5,
+  "k": 0,
+  "greedy_cost": 0.06701136737338695,
+  "greedy_cost_lstsq": 0.06701136737338712,
+  "Cstar": 0.006986807979408438,
+  "ratio": 9.591127675310874,
+  "ranks": [
+   0,
+   2,
+   1,
+   15,
+   7,
+   12,
+   11,
+   25,
+   3,
+   6,
+   4,
+   22,
+   14,
+   19,
+   17,
+   29,
+   5,
+   9,
+   8,
+   24,
+   18,
+   21,
+   20,
+   30,
+   10,
+   16,
+   13,
+   28,
+   23,
+   27,
+   26,
+   31
+  ],
+  "steps": [
+   {
+    "step": 1,
+    "levels": 32,
+    "residual": 0.26238871170692746,
+    "envelope_lines": 140,
+    "oracle_calls": 279,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      8
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      4,
+      13
+     ],
+     [
+      6,
+      16
+     ],
+     [
+      7,
+      18
+     ],
+     [
+      11,
+      20
+     ],
+     [
+      12,
+      21
+     ],
+     [
+      14,
+      23
+     ],
+     [
+      15,
+      24
+     ],
+     [
+      17,
+      26
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      25,
+      30
+     ],
+     [
+      29,
+      31
+     ]
+    ],
+    "time": 9.04452395439148
+   },
+   {
+    "step": 2,
+    "levels": 16,
+    "residual": 0.34322821632806083,
+    "envelope_lines": 32,
+    "oracle_calls": 63,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      6,
+      9
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      8,
+      12
+     ],
+     [
+      10,
+      13
+     ],
+     [
+      14,
+      15
+     ]
+    ],
+    "brute_residual": 0.34322821632806466,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 4.529438495635986
+   },
+   {
+    "step": 3,
+    "levels": 8,
+    "residual": 0.2933553398005517,
+    "envelope_lines": 7,
+    "oracle_calls": 13,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "brute_residual": 0.2933553398005415,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.015038728713989258
+   },
+   {
+    "step": 4,
+    "levels": 4,
+    "residual": 6.259786860548658,
+    "envelope_lines": 2,
+    "oracle_calls": 3,
+    "n_optimal_on_envelope": 2,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "brute_residual": 6.259786860548653,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0010001659393310547
+   },
+   {
+    "step": 5,
+    "levels": 2,
+    "residual": 0.0,
+    "envelope_lines": 1,
+    "oracle_calls": 2,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ]
+    ],
+    "brute_residual": 0.0,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0
+   }
+  ],
+  "time": 13.595500946044922
+ },
+ {
+  "n": 5,
+  "k": 1,
+  "greedy_cost": 0.07083253330582236,
+  "greedy_cost_lstsq": 0.07083253330582251,
+  "Cstar": 0.011773795485176338,
+  "ratio": 6.016117181159075,
+  "ranks": [
+   0,
+   2,
+   1,
+   18,
+   3,
+   10,
+   9,
+   24,
+   7,
+   12,
+   11,
+   26,
+   15,
+   21,
+   20,
+   30,
+   4,
+   6,
+   5,
+   23,
+   8,
+   16,
+   14,
+   28,
+   13,
+   19,
+   17,
+   29,
+   22,
+   27,
+   25,
+   31
+  ],
+  "steps": [
+   {
+    "step": 1,
+    "levels": 32,
+    "residual": 0.20024001930016644,
+    "envelope_lines": 147,
+    "oracle_calls": 293,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      12,
+      19
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      18,
+      23
+     ],
+     [
+      20,
+      25
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      24,
+      28
+     ],
+     [
+      26,
+      29
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "time": 9.701148509979248
+   },
+   {
+    "step": 2,
+    "levels": 16,
+    "residual": 1.1362198041251428,
+    "envelope_lines": 32,
+    "oracle_calls": 63,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      9
+     ],
+     [
+      5,
+      11
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      10,
+      14
+     ],
+     [
+      13,
+      15
+     ]
+    ],
+    "brute_residual": 1.1362198041251617,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 4.642401695251465
+   },
+   {
+    "step": 3,
+    "levels": 8,
+    "residual": 0.4246070729129372,
+    "envelope_lines": 8,
+    "oracle_calls": 15,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "brute_residual": 0.42460707291293787,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.01804327964782715
+   },
+   {
+    "step": 4,
+    "levels": 4,
+    "residual": 5.252544164091943,
+    "envelope_lines": 2,
+    "oracle_calls": 3,
+    "n_optimal_on_envelope": 2,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "brute_residual": 5.252544164091942,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0010023117065429688
+   },
+   {
+    "step": 5,
+    "levels": 2,
+    "residual": 0.0,
+    "envelope_lines": 1,
+    "oracle_calls": 2,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ]
+    ],
+    "brute_residual": 0.0,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0
+   }
+  ],
+  "time": 14.367630004882812
+ },
+ {
+  "n": 5,
+  "k": 2,
+  "greedy_cost": 0.03127505387682534,
+  "greedy_cost_lstsq": 0.031275053876825325,
+  "Cstar": 0.004423209195919376,
+  "ratio": 7.070670296507357,
+  "ranks": [
+   0,
+   3,
+   2,
+   5,
+   1,
+   8,
+   7,
+   11,
+   4,
+   13,
+   12,
+   16,
+   9,
+   20,
+   19,
+   24,
+   6,
+   15,
+   14,
+   18,
+   10,
+   22,
+   21,
+   25,
+   17,
+   27,
+   26,
+   28,
+   23,
+   30,
+   29,
+   31
+  ],
+  "steps": [
+   {
+    "step": 1,
+    "levels": 32,
+    "residual": 0.9102337868121515,
+    "envelope_lines": 137,
+    "oracle_calls": 273,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      2,
+      14
+     ],
+     [
+      3,
+      15
+     ],
+     [
+      4,
+      17
+     ],
+     [
+      5,
+      18
+     ],
+     [
+      7,
+      21
+     ],
+     [
+      8,
+      22
+     ],
+     [
+      9,
+      23
+     ],
+     [
+      11,
+      25
+     ],
+     [
+      12,
+      26
+     ],
+     [
+      13,
+      27
+     ],
+     [
+      16,
+      28
+     ],
+     [
+      19,
+      29
+     ],
+     [
+      20,
+      30
+     ],
+     [
+      24,
+      31
+     ]
+    ],
+    "time": 8.606547832489014
+   },
+   {
+    "step": 2,
+    "levels": 16,
+    "residual": 0.7227148761167067,
+    "envelope_lines": 33,
+    "oracle_calls": 65,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      8
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      11
+     ],
+     [
+      5,
+      12
+     ],
+     [
+      6,
+      13
+     ],
+     [
+      7,
+      14
+     ],
+     [
+      9,
+      15
+     ]
+    ],
+    "brute_residual": 0.7227148761166404,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 4.275518178939819
+   },
+   {
+    "step": 3,
+    "levels": 8,
+    "residual": 0.9170915822056851,
+    "envelope_lines": 7,
+    "oracle_calls": 13,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      7
+     ]
+    ],
+    "brute_residual": 0.917091582205682,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.014533519744873047
+   },
+   {
+    "step": 4,
+    "levels": 4,
+    "residual": 2.7429331583849845,
+    "envelope_lines": 2,
+    "oracle_calls": 3,
+    "n_optimal_on_envelope": 2,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "brute_residual": 2.7429331583849823,
+    "brute_equal": true,
+    "brute_same_matching": false,
+    "time": 0.0010066032409667969
+   },
+   {
+    "step": 5,
+    "levels": 2,
+    "residual": 0.0,
+    "envelope_lines": 1,
+    "oracle_calls": 2,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ]
+    ],
+    "brute_residual": 0.0,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0010156631469726562
+   }
+  ],
+  "time": 12.904145002365112
+ },
+ {
+  "n": 5,
+  "k": 3,
+  "greedy_cost": 0.007712777309701296,
+  "greedy_cost_lstsq": 0.0077127773097015575,
+  "Cstar": 0.0022236652598164835,
+  "ratio": 3.4684974618608218,
+  "ranks": [
+   0,
+   5,
+   3,
+   9,
+   4,
+   15,
+   11,
+   22,
+   1,
+   13,
+   6,
+   17,
+   10,
+   24,
+   18,
+   28,
+   2,
+   14,
+   8,
+   19,
+   12,
+   25,
+   21,
+   29,
+   7,
+   23,
+   16,
+   26,
+   20,
+   30,
+   27,
+   31
+  ],
+  "steps": [
+   {
+    "step": 1,
+    "levels": 32,
+    "residual": 0.08521451730334549,
+    "envelope_lines": 144,
+    "oracle_calls": 287,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      4,
+      12
+     ],
+     [
+      5,
+      14
+     ],
+     [
+      6,
+      16
+     ],
+     [
+      9,
+      19
+     ],
+     [
+      10,
+      20
+     ],
+     [
+      11,
+      21
+     ],
+     [
+      13,
+      23
+     ],
+     [
+      15,
+      25
+     ],
+     [
+      17,
+      26
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      24,
+      30
+     ],
+     [
+      28,
+      31
+     ]
+    ],
+    "time": 10.237913608551025
+   },
+   {
+    "step": 2,
+    "levels": 16,
+    "residual": 0.29894230681396666,
+    "envelope_lines": 33,
+    "oracle_calls": 65,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      9
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      8,
+      12
+     ],
+     [
+      10,
+      14
+     ],
+     [
+      13,
+      15
+     ]
+    ],
+    "brute_residual": 0.29894230681395584,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 4.359897613525391
+   },
+   {
+    "step": 3,
+    "levels": 8,
+    "residual": 0.26226377319413263,
+    "envelope_lines": 8,
+    "oracle_calls": 15,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      7
+     ]
+    ],
+    "brute_residual": 0.2622637731941211,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.015540599822998047
+   },
+   {
+    "step": 4,
+    "levels": 4,
+    "residual": 0.8318578061312414,
+    "envelope_lines": 2,
+    "oracle_calls": 3,
+    "n_optimal_on_envelope": 2,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "brute_residual": 0.8318578061312394,
+    "brute_equal": true,
+    "brute_same_matching": false,
+    "time": 0.0
+   },
+   {
+    "step": 5,
+    "levels": 2,
+    "residual": 0.0,
+    "envelope_lines": 1,
+    "oracle_calls": 2,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ]
+    ],
+    "brute_residual": 0.0,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0010459423065185547
+   }
+  ],
+  "time": 14.619404077529907
+ },
+ {
+  "n": 5,
+  "k": 4,
+  "greedy_cost": 0.00670836463875058,
+  "greedy_cost_lstsq": 0.006708364638750687,
+  "Cstar": 0.0031841967847787873,
+  "ratio": 2.1067682345570646,
+  "ranks": [
+   0,
+   7,
+   4,
+   15,
+   3,
+   18,
+   12,
+   25,
+   2,
+   14,
+   10,
+   23,
+   9,
+   26,
+   21,
+   30,
+   1,
+   11,
+   8,
+   20,
+   6,
+   22,
+   17,
+   28,
+   5,
+   19,
+   16,
+   27,
+   13,
+   29,
+   24,
+   31
+  ],
+  "steps": [
+   {
+    "step": 1,
+    "levels": 32,
+    "residual": 0.12899407849817934,
+    "envelope_lines": 155,
+    "oracle_calls": 309,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      9,
+      13
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      15,
+      20
+     ],
+     [
+      18,
+      22
+     ],
+     [
+      21,
+      24
+     ],
+     [
+      23,
+      27
+     ],
+     [
+      25,
+      28
+     ],
+     [
+      26,
+      29
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "time": 9.571106195449829
+   },
+   {
+    "step": 2,
+    "levels": 16,
+    "residual": 0.1492291122009093,
+    "envelope_lines": 34,
+    "oracle_calls": 67,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      10,
+      14
+     ],
+     [
+      13,
+      15
+     ]
+    ],
+    "brute_residual": 0.1492291122009135,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 4.297636270523071
+   },
+   {
+    "step": 3,
+    "levels": 8,
+    "residual": 0.0461124794091278,
+    "envelope_lines": 8,
+    "oracle_calls": 15,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      5,
+      7
+     ]
+    ],
+    "brute_residual": 0.04611247940913188,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.027085542678833008
+   },
+   {
+    "step": 4,
+    "levels": 4,
+    "residual": 0.3312029708670349,
+    "envelope_lines": 2,
+    "oracle_calls": 3,
+    "n_optimal_on_envelope": 2,
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "brute_residual": 0.3312029708670359,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0010046958923339844
+   },
+   {
+    "step": 5,
+    "levels": 2,
+    "residual": 0.0,
+    "envelope_lines": 1,
+    "oracle_calls": 2,
+    "n_optimal_on_envelope": 1,
+    "pairs": [
+     [
+      0,
+      1
+     ]
+    ],
+    "brute_residual": 0.0,
+    "brute_equal": true,
+    "brute_same_matching": true,
+    "time": 0.0
+   }
+  ],
+  "time": 13.901851654052734
+ }
+]
