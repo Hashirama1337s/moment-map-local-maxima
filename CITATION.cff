@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this result, these proofs or these tools, please cite them as below. Text and figures: CC BY 4.0. Code (theory/ and probe/): MIT."
+title: "Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+doi: "{{DOI}}"
+date-released: "2026-10-10"
+repository-code: "https://github.com/Hashirama1337s/moment-map-local-maxima"
+license: CC-BY-4.0
+keywords:
+  - moment map
+  - norm square of the moment map
+  - Kirwan-Ness
+  - local maxima
+  - unitary orbit
+  - quantum mereology
+  - tensor product structure
+  - minimal interaction
+  - mutual information
+  - Klyachko cubicles
+  - standard Young tableaux
+  - coherent Boolean term orders
+  - Farkas certificate
+  - McConnell-Jennings counts
+abstract: >-
+  Let H be a Hermitian matrix with simple spectrum, K a compact connected subgroup of U(d) acting on the unitary orbit
+  of H by conjugation, and P the orthogonal projection onto the Hermitian part of Lie(K) plus the scalars. Minimising the
+  minimal-interaction cost ||H' - P(H')||^2 over the orbit is maximising ||P(H')||^2, the squared norm of the moment map.
+  Critical points satisfy [P(H'), H'] = 0 (Kirwan, Ness); at a local maximum the K-orbit is symplectic and the stabiliser
+  of the point equals that of its moment-map image (Biliotti); the one-line consequence that the point is fixed by a
+  maximal torus T is recorded here. We prove that a T-fixed point D is a local maximum if and only if P(D) orders the
+  eigenvalues of D strictly as D does across distinct T-weight spaces, and that it is then a strict local maximum modulo
+  an explicit critical set (the K-orbit of D when the weights are multiplicity-free). The proof is a root-by-root Hessian
+  analysis with a variance identity, an exact tie formula and a slice argument. The same test, with P(D) replaced by the
+  gradient of F, holds for every C^2 K-invariant functional F(P(H')) with positive-definite second derivative, including
+  minus the sum of the marginal entropies. For two parties this gives the local minima of mutual information on the
+  unitary orbit of a full-rank state with simple spectrum: the classical states whose probabilities are ordered like the
+  product of their own marginals. Those orders are Klyachko's cubicles (realizable standard Young tableaux). Every cubicle is the
+  unique global-minimiser class on a nonempty open set of spectra, for both functionals; combined with the classical
+  global minimum of mutual information (Jevtic, Jennings, Rudolph), this identifies McConnell and Jennings's numerical
+  class counts 1, 5, 14, 42, 18 (shapes 2x2, 2x3, 2x4, 2x5, 3x3) with cubicle counts. The six non-realizable 3x3 tableaux
+  carry exact Farkas certificates. Degenerate spectra and the sharpness of the single-spectrum bounds are left open.
+  The repository also contains the exact algorithms, independent implementations and the full numerical ledger.
