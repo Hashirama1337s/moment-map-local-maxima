@@ -1,0 +1,110 @@
+{
+ "2x2 GUE": {
+  "SYT_classes": 1,
+  "samples": 100,
+  "local_minima_median": 1.0,
+  "local_minima_min": 1,
+  "local_minima_max": 1,
+  "global_min_median": 0.008596497036693723,
+  "global_min_max": 0.10567675513668434
+ },
+ "2x2 Poisson": {
+  "SYT_classes": 1,
+  "samples": 100,
+  "local_minima_median": 1.0,
+  "local_minima_min": 1,
+  "local_minima_max": 1,
+  "global_min_median": 0.024871385869095326,
+  "global_min_max": 0.2323237311328603
+ },
+ "2x2 chain": {
+  "SYT_classes": 1,
+  "samples": 100,
+  "local_minima_median": 1.0,
+  "local_minima_min": 1,
+  "local_minima_max": 1,
+  "global_min_median": 0.0061173407820006576,
+  "global_min_max": 0.13247324058363008
+ },
+ "3x3 GUE": {
+  "SYT_classes": 21,
+  "samples": 100,
+  "local_minima_median": 15.0,
+  "local_minima_min": 8,
+  "local_minima_max": 18,
+  "global_min_median": 0.003999583661099246,
+  "global_min_max": 0.01908820125357692
+ },
+ "3x3 Poisson": {
+  "SYT_classes": 21,
+  "samples": 100,
+  "local_minima_median": 7.0,
+  "local_minima_min": 1,
+  "local_minima_max": 17,
+  "global_min_median": 0.014305959901038596,
+  "global_min_max": 0.19943425231097392
+ },
+ "2x8 GUE": {
+  "SYT_classes": 1430,
+  "samples": 100,
+  "local_minima_median": 301.0,
+  "local_minima_min": 174,
+  "local_minima_max": 406,
+  "global_min_median": 0.0010013658548218046,
+  "global_min_max": 0.00261853163532826
+ },
+ "2x8 Poisson": {
+  "SYT_classes": 1430,
+  "samples": 100,
+  "local_minima_median": 83.0,
+  "local_minima_min": 3,
+  "local_minima_max": 230,
+  "global_min_median": 0.0034440062024293163,
+  "global_min_max": 0.024817313735194312
+ },
+ "2x8 chain": {
+  "SYT_classes": 1430,
+  "samples": 100,
+  "local_minima_median": 251.5,
+  "local_minima_min": 141,
+  "local_minima_max": 398,
+  "global_min_median": 0.0007604332210486508,
+  "global_min_max": 0.00473480376744348
+ },
+ "4x4 GUE": {
+  "SYT_classes": 12012,
+  "samples": 100,
+  "local_minima_median": 639.0,
+  "local_minima_min": 301,
+  "local_minima_max": 870,
+  "global_min_median": 0.002166342113312211,
+  "global_min_max": 0.007965060937527878
+ },
+ "4x4 Poisson": {
+  "SYT_classes": 12012,
+  "samples": 100,
+  "local_minima_median": 143.0,
+  "local_minima_min": 16,
+  "local_minima_max": 474,
+  "global_min_median": 0.007184327295409356,
+  "global_min_max": 0.04497270011361001
+ },
+ "4x4 chain": {
+  "SYT_classes": 12012,
+  "samples": 100,
+  "local_minima_median": 434.5,
+  "local_minima_min": 181,
+  "local_minima_max": 792,
+  "global_min_median": 0.0016746226836761293,
+  "global_min_max": 0.007004182826654428
+ },
+ "4x4 free-fermion": {
+  "SYT_classes": 12012,
+  "samples": 5,
+  "local_minima_median": 435.0,
+  "local_minima_min": 379,
+  "local_minima_max": 651,
+  "global_min_median": 3.511493961360827e-34,
+  "global_min_max": 8.160086558514723e-33
+ }
+}

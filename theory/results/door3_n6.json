@@ -1,0 +1,102 @@
+[
+{
+"n": 6,
+"chain": 0,
+"exact_global": 0.0014628022176653183,
+"greedy_C1": 0.014500591845118201,
+"greedy_ratio": 0.014659247213562857,
+"greedy_C1_over_exact": 9.912886150980572,
+"coherent_orders_better_than_greedy": 123444,
+"n_local_minima": 5538
+},
+{
+"n": 6,
+"chain": 1,
+"exact_global": 0.003455941424950715,
+"greedy_C1": 0.01804416453951554,
+"greedy_ratio": 0.022861202433206034,
+"greedy_C1_over_exact": 5.221200917713143,
+"coherent_orders_better_than_greedy": 123728,
+"n_local_minima": 5319
+},
+{
+"n": 6,
+"chain": 2,
+"exact_global": 0.0006820670137290576,
+"greedy_C1": 0.008119692621778599,
+"greedy_ratio": 0.0033073527271585677,
+"greedy_C1_over_exact": 11.904537909531633,
+"coherent_orders_better_than_greedy": 113903,
+"n_local_minima": 5598
+},
+{
+"n": 6,
+"chain": 3,
+"exact_global": 0.001497597509932258,
+"greedy_C1": 0.0044475227304268325,
+"greedy_ratio": 0.004447522730426838,
+"greedy_C1_over_exact": 2.9697717183223755,
+"coherent_orders_better_than_greedy": 62320,
+"n_local_minima": 4414
+},
+{
+"n": 6,
+"chain": 4,
+"exact_global": 0.0012216471991489015,
+"greedy_C1": 0.004503526451060044,
+"greedy_ratio": 0.005487876119667995,
+"greedy_C1_over_exact": 3.6864378309855463,
+"coherent_orders_better_than_greedy": 4695,
+"n_local_minima": 2273
+},
+{
+"n": 6,
+"chain": 5,
+"exact_global": 0.0021319174495803544,
+"greedy_C1": 0.020387758526381885,
+"greedy_ratio": 0.02354769711816412,
+"greedy_C1_over_exact": 9.56310880160721,
+"coherent_orders_better_than_greedy": 124187,
+"n_local_minima": 5428
+},
+{
+"n": 6,
+"chain": 6,
+"exact_global": 0.0011841098936142744,
+"greedy_C1": 0.012916887070532219,
+"greedy_ratio": 0.013157992622354592,
+"greedy_C1_over_exact": 10.908520518400394,
+"coherent_orders_better_than_greedy": 123187,
+"n_local_minima": 5637
+},
+{
+"n": 6,
+"chain": 7,
+"exact_global": 0.0015974055012727716,
+"greedy_C1": 0.03206083357111615,
+"greedy_ratio": 0.006583827141208108,
+"greedy_C1_over_exact": 20.070566644205808,
+"coherent_orders_better_than_greedy": 124187,
+"n_local_minima": 4612
+},
+{
+"n": 6,
+"chain": 8,
+"exact_global": 0.00189040882761627,
+"greedy_C1": 0.006987006809981803,
+"greedy_ratio": 0.006240767636732882,
+"greedy_C1_over_exact": 3.696029508491102,
+"coherent_orders_better_than_greedy": 98206,
+"n_local_minima": 4950
+},
+{
+"n": 6,
+"chain": 9,
+"exact_global": 0.0011532242987559384,
+"greedy_C1": 0.01328452125950307,
+"greedy_ratio": 0.009086605705324774,
+"greedy_C1_over_exact": 11.519460068465422,
+"coherent_orders_better_than_greedy": 122903,
+"n_local_minima": 6149
+}
+]

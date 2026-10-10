@@ -1,0 +1,50 @@
+[
+{
+"chain": 0,
+"eps": 0.05,
+"syt_min": 1.403409978445246e-05,
+"plant_label_cost": 1.4034099784452561e-05,
+"plant_label_is_global_min": true,
+"labels_below_plant_label": 0,
+"D_plant_raw": 0.9715783182986582,
+"D_plant_best_on_torus": 0.15569484884629586,
+"torus_max_D": 1.2247448713915887,
+"min_overlap": 0.9710951928842988
+},
+{
+"chain": 0,
+"eps": 0.001,
+"syt_min": 5.6750183977083e-09,
+"plant_label_cost": 5.675018397708301e-09,
+"plant_label_is_global_min": true,
+"labels_below_plant_label": 0,
+"D_plant_raw": 1.0082535456848243,
+"D_plant_best_on_torus": 0.0037642313074972063,
+"torus_max_D": 1.2247448713915892,
+"min_overlap": 0.9999865662679643
+},
+{
+"chain": 1,
+"eps": 0.001,
+"syt_min": 5.936725133174551e-09,
+"plant_label_cost": 5.936725133174551e-09,
+"plant_label_is_global_min": true,
+"labels_below_plant_label": 0,
+"D_plant_raw": 0.999868163304345,
+"D_plant_best_on_torus": 0.003908572371422143,
+"torus_max_D": 1.2247448713915887,
+"min_overlap": 0.9999889938736118
+},
+{
+"chain": 2,
+"eps": 0.001,
+"syt_min": 7.078580577138074e-09,
+"plant_label_cost": 7.078580577138074e-09,
+"plant_label_is_global_min": true,
+"labels_below_plant_label": 0,
+"D_plant_raw": 1.0576772521928717,
+"D_plant_best_on_torus": 0.003502637549755136,
+"torus_max_D": 1.224744871391589,
+"min_overlap": 0.9999919115739261
+}
+]

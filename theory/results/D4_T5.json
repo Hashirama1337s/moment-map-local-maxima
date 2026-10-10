@@ -1,0 +1,92 @@
+[
+{
+"chain": 0,
+"exact_full_qubit": 0.0014628022176653183,
+"n_local_minima": 5538,
+"alternation_best": 0.0014628022176653196,
+"alternation_distinct_minima": 5196,
+"gap": 1.3010426069826053e-18,
+"secs": 1.8
+},
+{
+"chain": 1,
+"exact_full_qubit": 0.003455941424950715,
+"n_local_minima": 5319,
+"alternation_best": 0.003455941424950712,
+"alternation_distinct_minima": 4925,
+"gap": -3.0357660829594124e-18,
+"secs": 1.6
+},
+{
+"chain": 2,
+"exact_full_qubit": 0.0006820670137290576,
+"n_local_minima": 5598,
+"alternation_best": 0.000682067013729056,
+"alternation_distinct_minima": 5168,
+"gap": -1.5178830414797062e-18,
+"secs": 1.6
+},
+{
+"chain": 3,
+"exact_full_qubit": 0.001497597509932258,
+"n_local_minima": 4414,
+"alternation_best": 0.0014975975099322549,
+"alternation_distinct_minima": 4150,
+"gap": -3.0357660829594124e-18,
+"secs": 1.6
+},
+{
+"chain": 4,
+"exact_full_qubit": 0.0012216471991489015,
+"n_local_minima": 2273,
+"alternation_best": 0.0012216471991488888,
+"alternation_distinct_minima": 2225,
+"gap": -1.2793585635328952e-17,
+"secs": 1.5
+},
+{
+"chain": 5,
+"exact_full_qubit": 0.0021319174495803544,
+"n_local_minima": 5428,
+"alternation_best": 0.0021319174495803544,
+"alternation_distinct_minima": 4995,
+"gap": 0.0,
+"secs": 1.4
+},
+{
+"chain": 6,
+"exact_full_qubit": 0.0011841098936142744,
+"n_local_minima": 5637,
+"alternation_best": 0.001184109893614276,
+"alternation_distinct_minima": 5204,
+"gap": 1.5178830414797062e-18,
+"secs": 1.6
+},
+{
+"chain": 7,
+"exact_full_qubit": 0.0015974055012727716,
+"n_local_minima": 4612,
+"alternation_best": 0.0015974055012727727,
+"alternation_distinct_minima": 4321,
+"gap": 1.0842021724855044e-18,
+"secs": 1.5
+},
+{
+"chain": 8,
+"exact_full_qubit": 0.00189040882761627,
+"n_local_minima": 4950,
+"alternation_best": 0.0018904088276162692,
+"alternation_distinct_minima": 4632,
+"gap": -6.505213034913027e-19,
+"secs": 1.5
+},
+{
+"chain": 9,
+"exact_full_qubit": 0.0011532242987559384,
+"n_local_minima": 6149,
+"alternation_best": 0.0011532242987559373,
+"alternation_distinct_minima": 5705,
+"gap": -1.0842021724855044e-18,
+"secs": 1.5
+}
+]

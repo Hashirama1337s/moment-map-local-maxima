@@ -1,0 +1,37 @@
+{
+ "2x2": {
+  "classes": 1,
+  "nonrealizable_argmins": 0,
+  "spectra": 20000,
+  "realizable_classes": 1,
+  "SYT": 2
+ },
+ "2x3": {
+  "classes": 5,
+  "nonrealizable_argmins": 0,
+  "spectra": 20000,
+  "realizable_classes": 5,
+  "SYT": 5
+ },
+ "2x4": {
+  "classes": 14,
+  "nonrealizable_argmins": 0,
+  "spectra": 20000,
+  "realizable_classes": 14,
+  "SYT": 14
+ },
+ "2x5": {
+  "classes": 42,
+  "nonrealizable_argmins": 0,
+  "spectra": 20000,
+  "realizable_classes": 42,
+  "SYT": 42
+ },
+ "3x3": {
+  "classes": 18,
+  "nonrealizable_argmins": 0,
+  "spectra": 20000,
+  "realizable_classes": 18,
+  "SYT": 42
+ }
+}

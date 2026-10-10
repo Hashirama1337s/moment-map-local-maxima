@@ -1,0 +1,52 @@
+[
+{
+"n": 4,
+"chain": 0,
+"exact_global": 0.003065079969294957,
+"greedy_C1": 0.008344292232722612,
+"greedy_ratio": 0.0034702358822020106,
+"greedy_C1_over_exact": 2.7223734180880124,
+"coherent_orders_better_than_greedy": 6,
+"n_local_minima": 10
+},
+{
+"n": 4,
+"chain": 1,
+"exact_global": 0.009141904406103898,
+"greedy_C1": 0.0186388783318485,
+"greedy_ratio": 0.013666079224605396,
+"greedy_C1_over_exact": 2.0388397760321832,
+"coherent_orders_better_than_greedy": 12,
+"n_local_minima": 10
+},
+{
+"n": 4,
+"chain": 2,
+"exact_global": 0.004462344917774192,
+"greedy_C1": 0.0087041837374305,
+"greedy_ratio": 0.0087041837374305,
+"greedy_C1_over_exact": 1.9505851514884975,
+"coherent_orders_better_than_greedy": 6,
+"n_local_minima": 8
+},
+{
+"n": 4,
+"chain": 3,
+"exact_global": 0.002179254730843308,
+"greedy_C1": 0.0027366509031994755,
+"greedy_ratio": 0.0028861046423462582,
+"greedy_C1_over_exact": 1.2557737580959485,
+"coherent_orders_better_than_greedy": 2,
+"n_local_minima": 10
+},
+{
+"n": 4,
+"chain": 4,
+"exact_global": 0.004449111092067473,
+"greedy_C1": 0.010632997478723084,
+"greedy_ratio": 0.010632997478723094,
+"greedy_C1_over_exact": 2.3899150321692684,
+"coherent_orders_better_than_greedy": 5,
+"n_local_minima": 9
+}
+]
