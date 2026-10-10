@@ -4,7 +4,7 @@ title: "Local maxima of the moment-map norm on a unitary orbit: a root-block sig
 authors:
   - name: "Moki & Julio"
 version: "1.0"
-doi: "{{DOI}}"
+doi: "10.5281/zenodo.23275890"
 date-released: "2026-10-10"
 repository-code: "https://github.com/Hashirama1337s/moment-map-local-maxima"
 license: CC-BY-4.0

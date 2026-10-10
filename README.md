@@ -1,8 +1,8 @@
 # Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles
 
-[![DOI](https://zenodo.org/badge/DOI/{{DOI}}.svg)](https://doi.org/{{DOI}})
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23275890.svg)](https://doi.org/10.5281/zenodo.23275890)
 
-**Moki & Julio · 2026** · DOI [{{DOI}}](https://doi.org/{{DOI}}) · paper: [PAPER.md](PAPER.md) · numerical ledger: [SUPPLEMENT.md](SUPPLEMENT.md)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) (all versions; v1.0: 10.5281/zenodo.23275891) · paper: [PAPER.md](PAPER.md) · numerical ledger: [SUPPLEMENT.md](SUPPLEMENT.md)
 
 ## In plain words
 
@@ -115,7 +115,7 @@ in the paper.
 
 ```
 Moki & Julio (2026). Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual
-information, and Klyachko's cubicles. Version 1.0. DOI {{DOI}}.
+information, and Klyachko's cubicles. Version 1.0. DOI 10.5281/zenodo.23275890.
 ```
 
 See [CITATION.cff](CITATION.cff). Text and figures: CC BY 4.0 ([LICENSE](LICENSE)); code: MIT ([LICENSE-CODE](LICENSE-CODE)).
