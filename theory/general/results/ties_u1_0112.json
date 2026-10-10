@@ -1,0 +1,16 @@
+{
+ "case": "u1_0112",
+ "strict": 2,
+ "strict_ok": 2,
+ "tied": 0,
+ "tied_rootpair": 0,
+ "tied_rootpair_neg": 0,
+ "tied_nonroot_only": 0,
+ "tied_nonroot_psd": 0,
+ "tied_nonroot_givens_drop": 0,
+ "tied_nonroot_neg": 0,
+ "violating": 10,
+ "violating_neg": 10,
+ "worst_drop": null,
+ "givens_formula_err": null
+}

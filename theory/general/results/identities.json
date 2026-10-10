@@ -1,0 +1,137 @@
+{
+ "u22": {
+  "root_blocks_checked": 60,
+  "weighted_mean_err": 1.5543122344752192e-15,
+  "variance_identity_err": 1.0658141036401503e-14,
+  "support_sizes": [
+   2
+  ],
+  "block_sizes": [
+   2
+  ]
+ },
+ "u23": {
+  "root_blocks_checked": 120,
+  "weighted_mean_err": 1.3322676295501878e-15,
+  "variance_identity_err": 1.0658141036401503e-14,
+  "support_sizes": [
+   2,
+   3
+  ],
+  "block_sizes": [
+   2,
+   3
+  ]
+ },
+ "u222": {
+  "root_blocks_checked": 90,
+  "weighted_mean_err": 8.881784197001252e-16,
+  "variance_identity_err": 7.105427357601002e-15,
+  "support_sizes": [
+   4
+  ],
+  "block_sizes": [
+   4
+  ]
+ },
+ "ferm42": {
+  "root_blocks_checked": 180,
+  "weighted_mean_err": 1.5543122344752192e-15,
+  "variance_identity_err": 1.9539925233402755e-14,
+  "support_sizes": [
+   2
+  ],
+  "block_sizes": [
+   2
+  ]
+ },
+ "ferm52": {
+  "root_blocks_checked": 300,
+  "weighted_mean_err": 1.5543122344752192e-15,
+  "variance_identity_err": 2.842170943040401e-14,
+  "support_sizes": [
+   3
+  ],
+  "block_sizes": [
+   3
+  ]
+ },
+ "bos32": {
+  "root_blocks_checked": 90,
+  "weighted_mean_err": 1.5543122344752192e-15,
+  "variance_identity_err": 2.842170943040401e-14,
+  "support_sizes": [
+   3
+  ],
+  "block_sizes": [
+   3
+  ]
+ },
+ "bos42": {
+  "root_blocks_checked": 180,
+  "weighted_mean_err": 9.992007221626409e-16,
+  "variance_identity_err": 1.7763568394002505e-14,
+  "support_sizes": [
+   4
+  ],
+  "block_sizes": [
+   4
+  ]
+ },
+ "spin2": {
+  "root_blocks_checked": 30,
+  "weighted_mean_err": 6.106226635438361e-16,
+  "variance_identity_err": 3.552713678800501e-15,
+  "support_sizes": [
+   4
+  ],
+  "block_sizes": [
+   4
+  ]
+ },
+ "spin_h1": {
+  "root_blocks_checked": 30,
+  "weighted_mean_err": 4.440892098500626e-16,
+  "variance_identity_err": 3.552713678800501e-15,
+  "support_sizes": [
+   3
+  ],
+  "block_sizes": [
+   3
+  ]
+ },
+ "coll2": {
+  "root_blocks_checked": 30,
+  "weighted_mean_err": 1.1102230246251565e-15,
+  "variance_identity_err": 7.105427357601002e-15,
+  "support_sizes": [
+   4
+  ],
+  "block_sizes": [
+   4
+  ]
+ },
+ "coll3": {
+  "root_blocks_checked": 30,
+  "weighted_mean_err": 4.440892098500626e-16,
+  "variance_identity_err": 5.329070518200751e-15,
+  "support_sizes": [
+   12
+  ],
+  "block_sizes": [
+   15
+  ]
+ },
+ "su3adj": {
+  "root_blocks_checked": 90,
+  "weighted_mean_err": 1.1102230246251565e-15,
+  "variance_identity_err": 3.197442310920451e-14,
+  "support_sizes": [
+   4,
+   6
+  ],
+  "block_sizes": [
+   6
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "case": "u22",
+ "strict": 8,
+ "strict_ok": 8,
+ "tied": 8,
+ "tied_rootpair": 8,
+ "tied_rootpair_neg": 8,
+ "tied_nonroot_only": 0,
+ "tied_nonroot_psd": 0,
+ "tied_nonroot_givens_drop": 0,
+ "tied_nonroot_neg": 0,
+ "violating": 8,
+ "violating_neg": 8,
+ "worst_drop": null,
+ "givens_formula_err": null
+}

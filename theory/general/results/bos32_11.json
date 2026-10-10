@@ -1,0 +1,87 @@
+{
+ "case": "bos32",
+ "group": "bosons U(3) on Sym^2",
+ "seed": 11,
+ "d": 6,
+ "dimk": 9,
+ "rank": 3,
+ "nroot": 6,
+ "multfree": true,
+ "mult": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "W": 6,
+ "kern_pred": 12,
+ "spec": [
+  -1.4357103831224423,
+  -0.9799531299313334,
+  -0.3017332617126982,
+  -0.03474334831864176,
+  0.5051379695918621,
+  0.7332876192420271
+ ],
+ "n_assign": 720,
+ "n_ordiso": 12,
+ "n_pred_classes": 2,
+ "oi_over_W": 2.0,
+ "tfixed_hessian": {
+  "n": 52,
+  "oi_ok": 2,
+  "oi_bad": 0,
+  "non_ok": 50,
+  "non_bad": 0,
+  "block_err": 1.9539925233402755e-14,
+  "min_neg_non": 0.0,
+  "min_pos_oi": 0.022151190112887718,
+  "bad": []
+ },
+ "autograd_err": 3.552713678800501e-15,
+ "givens_err": 2.220446049250313e-15,
+ "givens_n": 60,
+ "descent": {
+  "n": 256,
+  "conv": 256,
+  "polished": 256,
+  "minima": 256,
+  "saddles": 0,
+  "tfixed": 256,
+  "ordiso": 256,
+  "in_pred": 256,
+  "kern_ok": 256,
+  "viol": [],
+  "classes_found": 2,
+  "class_counts": [
+   215,
+   41
+  ],
+  "f_pred": [
+   0.06915145298699284,
+   0.13254059949910374
+  ],
+  "f_found": [
+   0.06915145298699284,
+   0.13254059949910374
+  ]
+ },
+ "lm": {
+  "n": 40,
+  "conv": 40,
+  "tfixed": 2,
+  "non_tfixed": 38,
+  "N1_nonneg": 2,
+  "N1_nonneg_not_tfixed": 0,
+  "cand": 0,
+  "cand_bad": 0,
+  "min_N1_non_tfixed": -7.099978812227582,
+  "max_hmin_non_tfixed": -5.224981041808384,
+  "ag_err": 2.886579864025407e-15,
+  "examples": [],
+  "max_N1_non_tfixed": -4.207997815737075
+ },
+ "seconds": 52.85084867477417
+}

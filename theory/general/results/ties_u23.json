@@ -1,0 +1,16 @@
+{
+ "case": "u23",
+ "strict": 60,
+ "strict_ok": 60,
+ "tied": 60,
+ "tied_rootpair": 60,
+ "tied_rootpair_neg": 60,
+ "tied_nonroot_only": 0,
+ "tied_nonroot_psd": 0,
+ "tied_nonroot_givens_drop": 0,
+ "tied_nonroot_neg": 0,
+ "violating": 600,
+ "violating_neg": 300,
+ "worst_drop": null,
+ "givens_formula_err": null
+}

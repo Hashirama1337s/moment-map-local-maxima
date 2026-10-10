@@ -1,0 +1,79 @@
+{
+ "case": "coll2",
+ "group": "SU(2) collective on 2 qubits",
+ "seed": 11,
+ "d": 4,
+ "dimk": 3,
+ "rank": 1,
+ "nroot": 2,
+ "multfree": false,
+ "mult": [
+  1,
+  2,
+  1
+ ],
+ "W": 2,
+ "kern_pred": 8,
+ "spec": [
+  -1.1270720330168245,
+  -0.05598733914628473,
+  0.6165122480655625,
+  1.3347808778559787
+ ],
+ "n_assign": 12,
+ "n_ordiso": 2,
+ "n_pred_classes": 1,
+ "oi_over_W": 1.0,
+ "tfixed_hessian": {
+  "n": 11,
+  "oi_ok": 1,
+  "oi_bad": 0,
+  "non_ok": 10,
+  "non_bad": 0,
+  "block_err": 8.881784197001252e-15,
+  "min_neg_non": 0.0,
+  "min_pos_oi": 1.9823041589777701,
+  "bad": []
+ },
+ "autograd_err": 5.329070518200751e-15,
+ "givens_err": 5.329070518200751e-15,
+ "givens_n": 33,
+ "descent": {
+  "n": 256,
+  "conv": 256,
+  "polished": 256,
+  "minima": 256,
+  "saddles": 0,
+  "tfixed": 256,
+  "ordiso": 256,
+  "in_pred": 256,
+  "kern_ok": 256,
+  "viol": [],
+  "classes_found": 1,
+  "class_counts": [
+   256
+  ],
+  "f_pred": [
+   0.2572476411683001
+  ],
+  "f_found": [
+   0.2572476411683001
+  ]
+ },
+ "lm": {
+  "n": 40,
+  "conv": 40,
+  "tfixed": 5,
+  "non_tfixed": 35,
+  "N1_nonneg": 5,
+  "N1_nonneg_not_tfixed": 0,
+  "cand": 1,
+  "cand_bad": 0,
+  "min_N1_non_tfixed": -9.974176322678563,
+  "max_hmin_non_tfixed": -3.6533852893831735,
+  "ag_err": 1.609823385706477e-15,
+  "examples": [],
+  "max_N1_non_tfixed": -3.653385289383177
+ },
+ "seconds": 67.53205180168152
+}

@@ -1,0 +1,35 @@
+{
+ "dA": 3,
+ "dB": 3,
+ "nspec": 20000,
+ "seed": 6,
+ "n_cubicles": 36,
+ "global_min_classes_mod_transpose": 18,
+ "argmin_not_selfconsistent": 0,
+ "cubicles_mod_transpose": 18,
+ "local_minima_per_spectrum": {
+  "min": 2,
+  "max": 36,
+  "mean": 12.2946
+ },
+ "class_counts": [
+  3257,
+  3006,
+  2464,
+  1459,
+  1387,
+  1136,
+  1093,
+  1079,
+  892,
+  793,
+  705,
+  612,
+  416,
+  413,
+  378,
+  376,
+  279,
+  255
+ ]
+}

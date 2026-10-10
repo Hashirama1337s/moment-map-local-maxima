@@ -1,0 +1,16 @@
+{
+ "case": "u222",
+ "strict": 96,
+ "strict_ok": 96,
+ "tied": 768,
+ "tied_rootpair": 576,
+ "tied_rootpair_neg": 576,
+ "tied_nonroot_only": 192,
+ "tied_nonroot_psd": 192,
+ "tied_nonroot_givens_drop": 192,
+ "tied_nonroot_neg": 0,
+ "violating": 39456,
+ "violating_neg": 300,
+ "worst_drop": null,
+ "givens_formula_err": 6.2898904834574054e-15
+}

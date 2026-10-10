@@ -1,0 +1,43 @@
+{
+ "dA": 2,
+ "dB": 2,
+ "seed": 1,
+ "spec": [
+  0.018953463030553168,
+  0.27464017093069604,
+  0.3137935845779473,
+  0.3926127814608035
+ ],
+ "kern_pred": 8,
+ "n_selfcons": 8,
+ "orbits_pred": 2.0,
+ "classes_pred": 2,
+ "tfixed_hessian": {
+  "oi_ok": 2,
+  "oi_bad": 0,
+  "non_neg": 16,
+  "non_bad": 0,
+  "block_err": 9.992007221626409e-16
+ },
+ "descent": {
+  "n": 64,
+  "conv": 63,
+  "minima": 63,
+  "product_diag": 63,
+  "selfcons": 63,
+  "kern_ok": 63,
+  "in_pred": 63,
+  "viol": [],
+  "classes_found": 2,
+  "its": 5999
+ },
+ "MI_pred": [
+  0.08060529689462981,
+  0.08060529689462981
+ ],
+ "MI_found": [
+  0.08060529689462981,
+  0.08060529689462981
+ ],
+ "seconds": 92.75160002708435
+}

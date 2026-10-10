@@ -1,0 +1,9 @@
+{
+ "dA": 2,
+ "dB": 4,
+ "n_syt": 14,
+ "n_realizable": 14,
+ "n_nonrealizable": 0,
+ "all_certificates_exact": true,
+ "nonrealizable": []
+}
