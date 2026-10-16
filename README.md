@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23275890.svg)](https://doi.org/10.5281/zenodo.23275890)
 
-**Moki & Julio · 2026** · DOI [10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) (all versions; v1.0: 10.5281/zenodo.23275891) · paper: [PAPER.md](PAPER.md) · numerical ledger: [SUPPLEMENT.md](SUPPLEMENT.md)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) (all versions; v1.0: 10.5281/zenodo.23275891) · paper: [PAPER.md](PAPER.md) · numerical ledger: [SUPPLEMENT.md](SUPPLEMENT.md) · version 1.1 addenda: [ADDENDUM-C.md](ADDENDUM-C.md), [ADDENDUM-D.md](ADDENDUM-D.md)
 
 ## In plain words
 
@@ -16,8 +16,15 @@ For a simple spectrum, the paper proves which torus-fixed splits are local optim
 if and only if its projection orders the eigenvalues strictly as the point itself does, across distinct weight spaces. For
 two parties it also proves which classes are the global minimisers, both for minimal interaction and for mutual
 information, and identifies a set of class counts that McConnell and Jennings had computed numerically without an
-explanation. Degenerate spectra and the sharpness of the single-spectrum bounds stay open. Everything needed to check
-the proofs and re-run the numbers is here.
+explanation. Degenerate spectra stay open. Everything needed to check the proofs and re-run the numbers is here.
+
+**New in version 1.1.** Two addenda.
+- [Addendum C](ADDENDUM-C.md) answers a question the paper left open. Can one list of energies make every possible split
+  stable at once? No for a 16-level system split 4 x 4 (3,330 possible splits) and for five qubits (516). Yes for the small
+  cases, up to 2 x 5, 3 x 3 and four qubits. Each answer is a proof that can be checked with whole numbers alone. At 4 x 4 the
+  true maximum lies between 1,209 and 2,845, and two specific splits can never be stable together.
+- [Addendum D](ADDENDUM-D.md) proves which split of a thermal state is least correlated near absolute zero. It is the split
+  that pushes the first level exciting both parts as high as possible: the lowest levels fill one row and one column.
 
 ## What the paper proves
 
@@ -44,8 +51,9 @@ conjugation; P the orthogonal projection onto the Hermitian part of Lie(K) plus 
   tableaux, n = 2..5.
 
 Limits, stated in the paper (Section 9): the spectrum must be simple; the cubicle counts bound the number of local minima
-at a *single* spectrum only from above (3330 at 4x4, 124,187 for six qubits; the largest number found at one 4x4 spectrum
-is 1114, so sharpness there is open); general Hamiltonian K-manifolds are not treated.
+at a *single* spectrum only from above (3330 at 4x4, 124,187 for six qubits). Addendum C (v1.1) shows that the bound is not
+attained at 4x4, 2x6, 2x8, 3x4 or five qubits; it brackets the 4x4 maximum in [1209, 2845]. General Hamiltonian
+K-manifolds are not treated.
 
 ## What is in the repository
 
@@ -60,6 +68,12 @@ is 1114, so sharpness there is open); general Hamiltonian K-manifolds are not tr
 | `probe/` | Implementation A (`impl_a.py`, GPU-capable) and implementation B (`impl_b*.py`), written separately from a shared specification, with their evaluation scripts. |
 | `probe/independent_b2/` | Implementation B2: an independent exact qubit-split and coherent-order enumeration (integer double description with a completeness certificate), with its logs. |
 | [ENV.txt](ENV.txt) | The software versions used. |
+| [ADDENDUM-C.md](ADDENDUM-C.md) | v1.1: simultaneous realms (the single-spectrum bound), exact LP with integer certificates. |
+| [ADDENDUM-D.md](ADDENDUM-D.md) | v1.1: the cold limit of the least-correlated split of a thermal state; theorem, proof and exact test. |
+| `theory/d5lp*.py`, `theory/check_d5.py` | v1.1: LP builder and searches, certificate export, and a stand-alone pure-Python exact checker. |
+| `theory/results/d5lp/certificates/` | v1.1: every proof object of Addendum C (rational spectra, integer certificates with realizability witnesses, 485 cores), with SHA256SUMS. |
+| `theory/d13_cold*.py`, `theory/d13_cancellation_demo.py`, `theory/results/d13/` | v1.1: exact multi-precision cold-limit test of Addendum D, its verdict script, the double-precision cancellation example, and the stored inputs. |
+| `prereg/` | v1.1: the predictions and pass/fail bars of both addenda as written before the runs, with their SHA-256 hashes. |
 
 ## Reproduce
 
@@ -83,6 +97,10 @@ tableaux and Appendix B states 36 realizable 3x3 witnesses.
 | Coherent Boolean term orders (OEIS A009997; SUPPLEMENT S5) | `python ../theory/door4.py ENUM n` (n = 3..6) | `coherent_n*.npy` | 2 / 14 / 516 / 124,187 |
 | Independent enumeration with completeness certificate (SUPPLEMENT S4) | `python regions.py 6` (from `probe/independent_b2/`) | `regions_n6.log` | 124,187 regions, 0 missing |
 | Single-spectrum census (SUPPLEMENT S5) | `python ../theory/census.py 100` | `census.json` | table in SUPPLEMENT S5 |
+| All realms at once, controls and table (Addendum C) | `python ../theory/d5lp.py CONTROLS`; `python ../theory/d5lp.py JOINT` | `theory/results/d5lp/controls.json`, `joint.json` | table of Proposition C1 |
+| Exact check of every Addendum C proof object (no LP) | `python ../theory/check_d5.py` | printed | ALL CHECKS PASS |
+| Bracket searches (Addendum C, about 15 min each; MILP 3 min) | `python ../theory/d5lp.py GREEDY`; `python ../theory/d5lp.py UPPER`; `python ../theory/d5lp_milp_probe.py` | `greedy.json`, `upper.json`, `milp_probe.json` | 1164; 485 cores; see Addendum C |
+| Cold-limit exact test (Addendum D, about 5 min) | `python ../theory/d13_cold.py`; `python ../theory/d13_cold_verdict.py` | `theory/results/d13/cold.json` | table of Addendum D |
 
 ## What is new and what is credited
 
@@ -97,7 +115,8 @@ Georgoulas-Robbin-Salamon's Lemma 3.5.
 
 New in the paper: Theorems 1-2 (b)-(d) (the root-block sign test, the variance identity, the exact tie formula and the
 slice argument), Lemma 5.1 (the second-order torus statement with an explicit ascent direction), Theorems 3 and 4, and
-the Farkas certificates of Appendix A.
+the Farkas certificates of Appendix A. New in v1.1: Propositions C1-C3 (Addendum C) and Theorem D1 / Corollary D2
+(Addendum D); Conjecture D3 is tested, not proved.
 
 Software in this repository, not part of the mathematical claims: the exact algorithms (parametric perfect matching for
 qubit splits, branch-and-bound over partial tableaux, LP-pruned coherent-order enumeration) and the three implementations.
@@ -115,7 +134,7 @@ in the paper.
 
 ```
 Moki & Julio (2026). Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual
-information, and Klyachko's cubicles. Version 1.0. DOI 10.5281/zenodo.23275890.
+information, and Klyachko's cubicles. Version 1.1. DOI 10.5281/zenodo.23275890.
 ```
 
 See [CITATION.cff](CITATION.cff). Text and figures: CC BY 4.0 ([LICENSE](LICENSE)); code: MIT ([LICENSE-CODE](LICENSE-CODE)).

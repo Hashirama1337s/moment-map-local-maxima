@@ -3,9 +3,9 @@ message: "If you use this result, these proofs or these tools, please cite them 
 title: "Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles"
 authors:
   - name: "Moki & Julio"
-version: "1.0"
+version: "1.1"
 doi: "10.5281/zenodo.23275890"
-date-released: "2026-10-10"
+date-released: "{{RELEASE_DATE}}"
 repository-code: "https://github.com/Hashirama1337s/moment-map-local-maxima"
 license: CC-BY-4.0
 keywords:
@@ -23,6 +23,10 @@ keywords:
   - coherent Boolean term orders
   - Farkas certificate
   - McConnell-Jennings counts
+  - simultaneous realizability
+  - Gordan certificate
+  - thermal state
+  - low-temperature limit
 abstract: >-
   Let H be a Hermitian matrix with simple spectrum, K a compact connected subgroup of U(d) acting on the unitary orbit
   of H by conjugation, and P the orthogonal projection onto the Hermitian part of Lie(K) plus the scalars. Minimising the
@@ -40,5 +44,11 @@ abstract: >-
   unique global-minimiser class on a nonempty open set of spectra, for both functionals; combined with the classical
   global minimum of mutual information (Jevtic, Jennings, Rudolph), this identifies McConnell and Jennings's numerical
   class counts 1, 5, 14, 42, 18 (shapes 2x2, 2x3, 2x4, 2x5, 3x3) with cubicle counts. The six non-realizable 3x3 tableaux
-  carry exact Farkas certificates. Degenerate spectra and the sharpness of the single-spectrum bounds are left open.
+  carry exact Farkas certificates. Degenerate spectra are left open.
   The repository also contains the exact algorithms, independent implementations and the full numerical ledger.
+  Version 1.1 adds two addenda. (C) Not all realms can be local minima at one spectrum: an exact LP with integer Gordan
+  certificates shows that the cubicle bound is not attained at 4x4 (3,330), 2x6, 2x8, 3x4, nor the coherent-order bound at
+  five qubits (516); it is attained at 2x2-2x5, 3x3 and three or four qubits; at 4x4 the maximum lies in [1,209, 2,845],
+  and an explicit pair of realms never coexists. (D) For a Gibbs state, the mutual information of a tableau arrangement
+  decays like exp(-beta X), X = min(e_11, e_10 + e_01); hence at low temperature the least-correlated arrangement maximises
+  X, with maximum min(e_{m+n-1}, e_1 + e_{max(m,n)}); a leading-order tie-break is tested exactly on 500 instances.

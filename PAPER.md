@@ -1,6 +1,6 @@
 # Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles
 
-**Moki & Julio** · October 2026 · version 1.0 · repository https://github.com/Hashirama1337s/moment-map-local-maxima
+**Moki & Julio** · October 2026 · version 1.1 (adds [ADDENDUM-C.md](ADDENDUM-C.md) and [ADDENDUM-D.md](ADDENDUM-D.md); the paper text is unchanged except where marked v1.1) · repository https://github.com/Hashirama1337s/moment-map-local-maxima
 
 The numerical ledger is in [SUPPLEMENT.md](SUPPLEMENT.md); the code and data are in `theory/` and `probe/` (see [README.md](README.md)).
 
@@ -24,7 +24,8 @@ functionals. Combined with the classical global minimum of mutual information (J
 McConnell and Jennings's numerical class counts 1, 5, 14, 42, 18 (shapes 2x2, 2x3, 2x4, 2x5, 3x3) with cubicle counts. The
 six non-realizable 3x3 tableaux carry exact Farkas certificates. For the number of local minima at a single spectrum, the
 cubicle counts are only upper bounds: 3330 at 4x4 and 124,187 for six qubits. At 4x4 the largest number we found for one
-spectrum is 1114, so sharpness there is open.
+spectrum is 1114. (v1.1: Addendum C shows by exact certificates that the bound is not attained at 4x4 or five qubits;
+at 4x4 the maximum lies in [1209, 2845].)
 
 ## 1. Introduction
 
@@ -471,6 +472,9 @@ a row x column permutation, composed with the transpose when dA = dB.
 - Hence: 2x2: 2/2 = 1; 2x3: 5; 2x4: 14; 2x5: 42; 3x3: 36/2 = 18.
 - The six non-realizable 3x3 tableaux form three transpose pairs. So among the 21 = 42/2 classes of 3x3 tables in [JJR],
   exactly three never occur as minimisers. That is why the count is 18.
+- (v1.1, credit) [JJR, Sec. VI E] state, with a 2x3 example, that every member of the Young-tableau set is
+  optimal for some spectrum. Theorem 4 confirms this for 2xn, n <= 5, where every tableau is realizable, and shows that it
+  fails from 3x3 on: exactly the realizable tableaux occur.
 
 ## 7. Corollaries
 
@@ -482,14 +486,14 @@ a row x column permutation, composed with the transpose when dA = dB.
   tableaux, halved when m = n: 1 (2x2), 18 (3x3), 1430 (2x8), 3330 (4x4) [OEIS A211400].
 - For 2x2 the bound 1 is a theorem: there is a unique local-minimum class for every simple spectrum.
 - These are upper bounds for a single spectrum. At 3x3 a spectrum with 18 local-minimum classes was found numerically. At
-  4x4 the largest number found is 1114 of 3330, so sharpness is not shown.
+  4x4 the largest number found is 1114 of 3330. (v1.1: not attained; the 4x4 maximum lies in [1209, 2845], Addendum C.)
 
 **Corollary 7 (qubits; exact global optimum).** Let K = U(2)^n and simple spectrum on C^{2^n}.
 - Root pairs are bit strings at Hamming distance 1. The fit P(D) is c + sum_j w_j s_j on s in {0,1}^n. So a local minimum of
   C1 is a placement of the sorted spectrum along a coherent Boolean term order (the order of subset sums of generic weights)
   whose own fit realises that order.
 - Counted modulo local unitaries and qubit permutations, the number of local-minimum classes is at most A009997(n):
-  2, 14, 516, 124,187 for n = 3..6. These are upper bounds; they were attained numerically at n = 3 and 4.
+  2, 14, 516, 124,187 for n = 3..6. These are upper bounds; they are attained at n = 3 and 4 (v1.1: exact spectra, Addendum C) and not at n = 5 (Addendum C).
 - The global minimum of C1 over ALL unitaries is attained at a local minimum. So it equals the minimum, over coherent orders
   O, of the residual of the placement of the sorted spectrum along O.
 - **Completeness of the enumeration.** Coherent orders (modulo symmetry) are the chambers of the arrangement
@@ -541,7 +545,8 @@ general-F extension (Lemma 5.6 and the alpha(l) = 0 case), and Theorems 3-4.
 - **Proved here:** Theorems 1-4, Lemmas 5.1-5.7 and 6.1, and Corollaries 5-7 as stated. Corollaries 6 and 7 are upper bounds plus the
   exact-optimum statement.
 - **Not proved:**
-  - Sharpness of the single-spectrum bounds at 4x4 (largest found 1114 of 3330) and for n >= 5 qubits.
+  - The exact single-spectrum maximum at 4x4 (v1.1: in [1209, 2845], bound not attained) and for n >= 5 qubits (v1.1: bound not
+    attained at n = 5; Addendum C).
   - Degenerate spectra. The proofs use E_c != E_c' (Lemmas 5.5 and 5.7); nothing is claimed when the spectrum is degenerate.
   - The analogue on general Hamiltonian K-manifolds: a local maximum iff T-fixed with mu(x) interior to its own normal cone.
   - The equivalence of our landscape with the sorted-eigenvalue landscape minimised by released code [Loizeau code] is an

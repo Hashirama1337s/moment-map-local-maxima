@@ -1,0 +1,68 @@
+{
+ "C1": {
+  "mine": 1114,
+  "instrument": 1114,
+  "stored": 1114,
+  "realizable_classes": 3330,
+  "syt": 24024,
+  "PASS": true
+ },
+ "C2": {
+  "cases": [
+   {
+    "label": "2x2",
+    "realms": 1,
+    "verdict": "FEASIBLE",
+    "margin": 0.3333333333333333,
+    "exact_ok": true
+   },
+   {
+    "label": "3x3",
+    "realms": 18,
+    "verdict": "FEASIBLE",
+    "margin": 0.125,
+    "exact_ok": true
+   },
+   {
+    "label": "qubits3",
+    "realms": 2,
+    "verdict": "FEASIBLE",
+    "margin": 0.14285714285714285,
+    "exact_ok": true
+   },
+   {
+    "label": "qubits4",
+    "realms": 14,
+    "verdict": "FEASIBLE",
+    "margin": 0.06060606060606061,
+    "exact_ok": true
+   }
+  ],
+  "PASS": true
+ },
+ "C3": {
+  "n_nonrealizable_3x3": 6,
+  "tableau": [
+   [
+    0,
+    1,
+    5
+   ],
+   [
+    2,
+    3,
+    6
+   ],
+   [
+    4,
+    7,
+    8
+   ]
+  ],
+  "verdict": "INFEASIBLE",
+  "exact_ok": true,
+  "support": 3,
+  "PASS": true
+ },
+ "ALL_PASS": true
+}

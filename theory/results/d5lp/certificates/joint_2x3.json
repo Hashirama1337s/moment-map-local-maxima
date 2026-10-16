@@ -1,0 +1,14 @@
+{
+"shape": "2x3",
+"kind": "bipartite",
+"realms": 5,
+"verdict": "FEASIBLE",
+"spectrum": [
+"0",
+"1/5",
+"2/5",
+"3/5",
+"4/5",
+"1"
+]
+}
