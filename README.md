@@ -21,9 +21,9 @@ paper says "local optima". In symplectic geometry (a branch of geometry whose la
 cost is smallest exactly where a related quantity, the squared size of a "moment map", is largest (both terms are in
 "Words you will meet"). So the question becomes: where are the local maxima of that quantity?
 
-A picture that helps (it is only a picture): split a 6-level system into a 2-level part and a 3-level part, and think of a
+![](brand/icon-picture.svg) **The idea in one picture.** Split a 6-level system into a 2-level part and a 3-level part, and think of a
 2 x 3 grid of seats, one row per state of the first part and one column per state of the second. Seat each energy level
-in one cell. Where the picture breaks: quantum mechanics allows far more than seatings, because the states of the
+in one cell. **Where the picture breaks.** Quantum mechanics allows far more than seatings, because the states of the
 system can be mixed together in any (unitary) way, not just reseated. A known result of Biliotti, with a one-line
 corollary recorded in the paper, shows that every stable split is a seating of this kind once the states inside each
 part are suitably mixed among themselves (a "change of basis" inside each part).

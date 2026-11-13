@@ -1,0 +1,41 @@
+{
+  "title": "Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles",
+  "upload_type": "software",
+  "description": "<p><b>In plain words.</b> \nA quantum system is described by its list of energy levels and how they are arranged. Nothing in that description says 'this is part A and that is part B'. A widely used rule picks the split whose parts interact the least. That rule has many local winners: splits that no small change can improve. For systems in which no two energy levels are equal, we prove an exact test that says which splits are such local winners, and a test of the same kind for the splits that leave two parts least correlated. Together with a known result, it explains the counts 1, 5, 14, 42, 18 that McConnell and Jennings had found by computer. Systems with equal energy levels stay open.</p>\n<p><b>The idea in one picture.</b> split a 6-level system into a 2-level part and a 3-level part, and think of a 2 x 3 grid of seats: one row per state of the first part, one column per state of the second. Seat each energy level in one cell. The test says which seatings are stable. <b>Where the picture breaks.</b> quantum mechanics allows far more than seatings, because the states can be mixed together in any (unitary) way; results of Biliotti, with a one-line corollary in the paper, show that every stable split is a seating of this kind once the states inside each part are suitably mixed.</p>\n<p><b>For specialists.</b> Let H be a Hermitian matrix with simple spectrum, K a compact connected subgroup of U(d) acting on the unitary orbit of H by conjugation, and P the orthogonal projection onto the Hermitian part of Lie(K) plus the scalars. Minimising the minimal-interaction cost ||H' - P(H')||^2 over the orbit is maximising ||P(H')||^2, the squared norm of the moment map. Critical points satisfy [P(H'), H'] = 0 (Kirwan, Ness); at a local maximum the K-orbit is symplectic and the stabiliser of the point equals that of its moment-map image (Biliotti); the one-line consequence that the point is fixed by a maximal torus T is recorded here. We prove that a T-fixed point D is a local maximum if and only if P(D) orders the eigenvalues of D strictly as D does across distinct T-weight spaces, and that it is then a strict local maximum modulo an explicit critical set (the K-orbit of D when the weights are multiplicity-free). The proof is a root-by-root Hessian analysis with a variance identity, an exact tie formula and a slice argument. The same test, with P(D) replaced by the gradient of F, holds for every C^2 K-invariant functional F(P(H')) with positive-definite second derivative, including minus the sum of the marginal entropies. For two parties this gives the local minima of mutual information on the unitary orbit of a full-rank state with simple spectrum: the classical states whose probabilities are ordered like the product of their own marginals. Those orders are Klyachko's cubicles (realizable standard Young tableaux). Every cubicle is the unique global-minimiser class on a nonempty open set of spectra, for both functionals; combined with the classical global minimum of mutual information (Jevtic, Jennings, Rudolph), this identifies McConnell and Jennings's numerical class counts 1, 5, 14, 42, 18 (shapes 2x2, 2x3, 2x4, 2x5, 3x3) with cubicle counts. The six non-realizable 3x3 tableaux carry exact Farkas certificates. Degenerate spectra are left open. The repository also contains the exact algorithms, independent implementations and the full numerical ledger. Version 1.1 adds two addenda. (C) Not all realms can be local minima at one spectrum: an exact LP with integer Gordan certificates shows that the cubicle bound is not attained at 4x4 (3,330), 2x6, 2x8, 3x4, nor the coherent-order bound at five qubits (516); it is attained at 2x2-2x5, 3x3 and three or four qubits; at 4x4 the maximum lies in [1,209, 2,845], and an explicit pair of realms never coexists. (D) For a Gibbs state, the mutual information of a tableau arrangement decays like exp(-beta X), X = min(e_11, e_10 + e_01); hence at low temperature the least-correlated arrangement maximises X, with maximum min(e_{m+n-1}, e_1 + e_{max(m,n)}); a leading-order tie-break is tested exactly on 500 instances.</p>\n<p><b>Links.</b> Repository, with a plain-language guide: <a href=\"https://github.com/Hashirama1337s/moment-map-local-maxima\">github.com/Hashirama1337s/moment-map-local-maxima</a>. All projects: <a href=\"https://github.com/Hashirama1337s\">the Moki &amp; Julio lab map</a>.</p>\n<p><i>Prepared with AI assistance; what was checked, and by what, is stated above.</i></p>",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "moment map",
+    "norm square of the moment map",
+    "Kirwan-Ness",
+    "local maxima",
+    "unitary orbit",
+    "quantum mereology",
+    "tensor product structure",
+    "minimal interaction",
+    "mutual information",
+    "Klyachko cubicles",
+    "standard Young tableaux",
+    "coherent Boolean term orders",
+    "Farkas certificate",
+    "McConnell-Jennings counts",
+    "simultaneous realizability",
+    "Gordan certificate",
+    "thermal state",
+    "low-temperature limit",
+    "quantum subsystems",
+    "symplectic geometry"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Hashirama1337s/moment-map-local-maxima/tree/v1.1",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

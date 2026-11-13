@@ -27,7 +27,11 @@ keywords:
   - Gordan certificate
   - thermal state
   - low-temperature limit
+  - quantum subsystems
+  - symplectic geometry
 abstract: >-
+  A quantum system is described by its list of energy levels and how they are arranged. Nothing in that
+  description says 'this is part A and that is part B'.
   Let H be a Hermitian matrix with simple spectrum, K a compact connected subgroup of U(d) acting on the unitary orbit
   of H by conjugation, and P the orthogonal projection onto the Hermitian part of Lie(K) plus the scalars. Minimising the
   minimal-interaction cost ||H' - P(H')||^2 over the orbit is maximising ||P(H')||^2, the squared norm of the moment map.
