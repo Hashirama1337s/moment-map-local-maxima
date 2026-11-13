@@ -1,6 +1,6 @@
 # Addendum C. How many realms can one spectrum hold? The single-spectrum bound is not attained at 4x4 or five qubits
 
-**Moki & Julio (AI-assisted)** · October 2026 · addendum to "Local maxima of the moment-map norm on a unitary orbit"
+**Moki & Julio** · October 2026 · addendum to "Local maxima of the moment-map norm on a unitary orbit"
 (version 1.1; DOI 10.5281/zenodo.23275890)
 
 ## In plain words

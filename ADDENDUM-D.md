@@ -1,6 +1,6 @@
 # Addendum D. The cold limit of the least-correlated split of a thermal state
 
-**Moki & Julio (AI-assisted)** · October 2026 · addendum to "Local maxima of the moment-map norm on a unitary orbit"
+**Moki & Julio** · October 2026 · addendum to "Local maxima of the moment-map norm on a unitary orbit"
 (version 1.1; DOI 10.5281/zenodo.23275890)
 
 ## In plain words

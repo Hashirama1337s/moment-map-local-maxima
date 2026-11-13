@@ -7,7 +7,7 @@ which splits are stable. For two parts the test becomes a puzzle about numbers i
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23275890.svg)](https://doi.org/10.5281/zenodo.23275890)
 
-**Moki & Julio (AI-assisted) · 2026** · DOI [10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) (all
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23275890](https://doi.org/10.5281/zenodo.23275890) (all
 versions; v1.0: 10.5281/zenodo.23275891)
 
 **Read** [PAPER.md](PAPER.md) · **Numbers** [SUPPLEMENT.md](SUPPLEMENT.md) · **New in v1.1** [ADDENDUM-C.md](ADDENDUM-C.md),
@@ -336,3 +336,5 @@ information, and Klyachko's cubicles. Version 1.1. DOI 10.5281/zenodo.23275890.
 ```
 
 See [CITATION.cff](CITATION.cff). Text and figures: CC BY 4.0 ([LICENSE](LICENSE)); code: MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+*Prepared with AI assistance; all results are machine-checked.*
