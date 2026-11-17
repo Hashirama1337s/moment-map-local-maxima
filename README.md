@@ -4,7 +4,7 @@
 
 [![DOI 10.5281/zenodo.23275890](brand/doi.svg)](https://doi.org/10.5281/zenodo.23275890) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.1
+Moki & Julio · 2026 · version 1.1.1
 
 **Read** [PAPER.md](PAPER.md) · **Numbers** [SUPPLEMENT.md](SUPPLEMENT.md) · **New in v1.1** [ADDENDUM-C.md](ADDENDUM-C.md),
 [ADDENDUM-D.md](ADDENDUM-D.md)
@@ -33,6 +33,10 @@ parts, a test of the same kind classifies the splits that leave the parts least 
 Combined with the classical result of Jevtic, Jennings and Rudolph that the least-correlated state is always a seating,
 it explains the counts 1, 5, 14, 42, 18 for grids 2x2, 2x3, 2x4, 2x5 and 3x3, which McConnell and Jennings had computed
 numerically. Degenerate spectra (two or more equal energies) stay open. The proofs are complete and in the paper.
+
+![All 42 rankings of a 3 x 3 grid: 36 outlined in blue can be stable splits, 6 outlined in orange never can](figures/grids_3x3.svg)
+
+*All 42 ways to rank the energies of a 9-level system in a 3 x 3 grid (1 = lowest; every row and column increases). By the paper's test, a ranking can be a stable split only if some "row number + column number" puts the cells in the same order. That works for 36 grids (blue) and fails for 6 (orange), each failure proved by a short certificate. A grid and its mirror image describe the same split, so the 36 give 18 kinds of stable split: the count McConnell and Jennings had found numerically. This holds for spectra with no two energies equal.*
 
 ## At a glance
 
@@ -117,6 +121,10 @@ the grid gives three inequalities that would have to hold:
 Add them up. Both sides become x0 + x1 + x2 + y0 + y1 + y2, so the sum says "something < itself", which is impossible. No
 choice of numbers works. Such an impossibility proof is called a **Farkas certificate**.
 
+![Two 3 x 3 grids: 123/456/789 with row and column numbers whose sums follow the ranks, and 126/347/589 with three arrows that add up to a contradiction](figures/worked_example.svg)
+
+*The README's worked example. Left: the grid 123 / 456 / 789 passes. With row numbers x = 0, 3, 6 and column numbers y = 0, 1, 2, the sums x + y (small grey numbers) rise in exactly the order of the ranks. Right: the grid 126 / 347 / 589 fails. Each arrow joins a lower rank to a higher one, so "row + column" must be smaller where the arrow starts; adding the three demands gives the same total on both sides, "something < itself", so no row and column numbers exist. This kind of proof is a Farkas certificate.*
+
 Exactly 6 of the 42 grids fail like this; 36 pass. A grid and its mirror image (swap rows and columns) describe the same
 split when both parts have 3 levels, so the 36 pair up into **18** patterns: 18 kinds of seating, each of which is the
 best split for some list of energies. That is the McConnell-Jennings count for 3 x 3. It is not the number of stable
@@ -192,14 +200,45 @@ inequalities.
 - **Cubicle (realizable standard Young tableau)** - a grid order that some "row number + column number" produces.
 - **Farkas certificate** - inequalities that add up to an impossibility, proving that no numbers fit.
 
+## Open doors
+
+Questions this paper leaves open, with pointers to the files that help someone start.
+
+- **Equal energy levels.** Every proof here assumes that no two energy levels are equal. When two or more levels are
+  equal, nothing is claimed: the test may still hold, change, or fail. *Status:* open according to this paper (listed
+  under "Not proved" in Section 9 of [PAPER.md](PAPER.md)). *Start here:* Lemmas 5.5 and 5.7 in [PAPER.md](PAPER.md),
+  the two places where distinct energies are used. *Ceiling:* an exact test for every spectrum, so that the
+  classification also covers systems with equal levels.
+- **How many stable splits can one system have at once.** For a 4 x 4 grid there are 3,330 orders that can be stable for
+  some spectrum, but no single spectrum makes them all stable; the largest number one spectrum can hold lies between 1,209
+  and 2,845. For five qubits it is less than 516, and the best spectrum found holds 233. *Status:* open according to this
+  paper (listed under "Not settled" in Section 4 of [ADDENDUM-C.md](ADDENDUM-C.md)). *Start here:* the exact certificates
+  and the 1,209-split spectrum written by `theory/d5lp_export.py`, checked by `theory/check_d5.py`. *Ceiling:* the exact
+  maximum for 4 x 4 and for five qubits, a clean counting problem about the realizable tableaux counted in OEIS A211400.
+- **A formula for which split wins near absolute zero.** Addendum D proves that the least-correlated split of a cold
+  system lies in a set that can still hold many arrangements (234 of 12,012 classes at 4 x 4, on average for random
+  spectra). Conjecture D3 gives a formula that picks one; it picked the exact winner in all 500 test cases, but the remainder
+  of the expansion behind it has not been bounded, so it is not proved. *Status:* open according to this paper (Conjecture
+  D3 in [ADDENDUM-D.md](ADDENDUM-D.md), marked "tested, not proved"). *Start here:* the exact, high-precision test of
+  Addendum D, Section 3 (`theory/d13_cold.py`, `theory/d13_cold_verdict.py`). *Ceiling:* a proved rule for the
+  least-correlated split of a cold quantum system.
+- **The same test beyond matrices.** The test is proved for one setting: all Hamiltonians with a given list of energies.
+  The natural general version, on any space with a symmetry of the kind studied in symplectic geometry, is stated in the
+  paper but not proved. *Status:* open according to this paper (listed under "Not proved" in Section 9 of
+  [PAPER.md](PAPER.md)). *Start here:* the proof of Theorem 1 (Section 5) and the line-by-line comparison with
+  Georgoulas-Robbin-Salamon's Hessian lemma (Section 8). *Ceiling:* a general theorem in symplectic geometry that contains
+  this paper's test as one case.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles. Version 1.1. Zenodo. https://doi.org/10.5281/zenodo.23275890
+Moki & Julio (2026). Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles. Version 1.1.1. Zenodo. https://doi.org/10.5281/zenodo.23275890
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23275891. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and figures: CC BY 4.0 ([LICENSE](LICENSE)); code: MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+Release note - v1.1.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 

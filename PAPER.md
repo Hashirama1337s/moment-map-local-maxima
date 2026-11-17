@@ -1,6 +1,6 @@
 # Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles
 
-**Moki & Julio** · October 2026 · version 1.1 (adds [ADDENDUM-C.md](ADDENDUM-C.md) and [ADDENDUM-D.md](ADDENDUM-D.md); the paper text is unchanged except where marked v1.1) · repository https://github.com/Hashirama1337s/moment-map-local-maxima
+**Moki & Julio** · October 2026 · version 1.1.1 (v1.1 adds [ADDENDUM-C.md](ADDENDUM-C.md) and [ADDENDUM-D.md](ADDENDUM-D.md); the paper text is unchanged except where marked v1.1, and Section 10, Open doors, added in v1.1.1) · repository https://github.com/Hashirama1337s/moment-map-local-maxima
 
 The numerical ledger is in [SUPPLEMENT.md](SUPPLEMENT.md); the code and data are in `theory/` and `probe/` (see [README.md](README.md)).
 
@@ -553,6 +553,27 @@ general-F extension (Lemma 5.6 and the alpha(l) = 0 case), and Theorems 3-4.
     observation, not a theorem.
 - **Numerics** (Hessian cross-checks, censuses, timings, branch-and-bound, greedy ratios) are not used in any proof. They are
   listed in the supplement with their reproduction commands and limitations.
+
+## 10. Open doors
+
+- **Degenerate spectra.** Lemmas 5.5 and 5.7 use E_c != E_c'; nothing is claimed when two or more eigenvalues coincide
+  (Section 9). Whether Theorems 1-3, with suitable tie rules, extend to degenerate spectra is open in this paper. *Status:*
+  open according to this paper (Section 9, "Not proved"). *Ceiling:* the root-block sign test for every spectrum.
+- **The single-spectrum maximum.** Corollaries 6-7 bound the number of local-optimum classes at one spectrum by the number of
+  realizable tableaux [OEIS A211400], halved when m = n; Addendum C shows the bound is not attained at 4x4 (maximum in
+  [1209, 2845]) or for five qubits (fewer than 516 of the coherent Boolean term orders [Maclagan]; best found 233).
+  *Status:* open according to this paper (Addendum C, Section 4, "Not settled"). *Ceiling:* the exact maxima, with
+  certificates.
+- **Conjecture D3.** For generic spectra and large beta, the least-correlated class is conjectured to be the argmin of
+  I_lead, with I_T / I_lead -> 1 (Addendum D, Section 2); it matched the exact winner in all 500 instances of the
+  pre-registered test (Section 3), but the remainder is not bounded uniformly over near-ties. *Status:* open according to
+  this paper (Addendum D, "tested, not proved"). *Ceiling:* a proof, giving the cold-limit least-correlated split for
+  generic spectra.
+- **General Hamiltonian K-manifolds.** The expected analogue of Theorem 1: x is a local maximum of |mu|^2 iff x is fixed by
+  a maximal torus and mu(x) is interior to its own normal cone (Section 9). The torus-fixedness half follows in one line from Biliotti's results (K3);
+  Section 8 compares our second-order analysis with [GRS, Lemma 3.5]. *Status:* open according to this paper (Section 9,
+  "Not proved"). *Ceiling:* Theorem 1 as a special case of a general statement for compact group actions [Kirwan, Ness,
+  Biliotti].
 
 ## Appendix A. Farkas certificates for the six non-realizable 3x3 tableaux
 

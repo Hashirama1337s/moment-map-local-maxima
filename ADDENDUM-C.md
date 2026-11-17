@@ -96,6 +96,10 @@ the second with weights 1, 3, 2, 3, 3. These rows sum to the zero form; they are
   hold at once. Each set loses at least one realm, so N <= 3,330 - 485. The certificates are in
   `certificates/upper_cores.json`.
 
+![Number line: the largest number of stable splits one 16-level spectrum can hold lies between 1,209 and 2,845; there are 3,330 in all](figures/bracket_4x4.svg)
+
+*Split a 16-level system into two 4-level parts. There are 3,330 kinds of stable split, but no single list of 16 energies (no two equal) makes all of them stable at once. The largest number one list can achieve lies in the shaded interval: at least 1,209, because an explicit list of energies reaches 1,209 (checked exactly), and at most 2,845, because 485 separate groups of splits each contain one that must fail (3,330 - 485). The exact maximum is open.*
+
 ## 3. How the numbers were found (not part of the proofs)
 
 - **Lower bounds.**

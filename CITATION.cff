@@ -3,7 +3,7 @@ message: "If you use this result, these proofs or these tools, please cite them 
 title: "Local maxima of the moment-map norm on a unitary orbit: a root-block sign test, mutual information, and Klyachko's cubicles"
 authors:
   - name: "Moki & Julio"
-version: "1.1"
+version: "1.1.1"
 doi: "10.5281/zenodo.23275890"
 date-released: "2026-10-16"
 repository-code: "https://github.com/Hashirama1337s/moment-map-local-maxima"
